@@ -1,5 +1,7 @@
 # structured-data-examples
 Examples of structured data for small businesses
+
+
 Hi, 
 My name is Nikolaj Antonov and I live in Sweden.
 I am a web developer, web solution, search engine optimizer and online marketer. I think that I am a good specialist in technical SEO. I will help you increase organic traffic to your website. 
