@@ -10,7 +10,9 @@ Google has recognized me as:
 
 - certified professional of Online Marketing - https://goo.gl/xBUWv7, 
 
-- Mobile Sites - https://goo.gl/qns1Qt and Google Analytics - https://goo.gl/KxhP5P, 
+- Mobile Sites - https://goo.gl/qns1Qt 
+
+- Google Analytics - https://goo.gl/KxhP5P, 
 
 Meaning that I've passed multiple assessments that assess of my knowledge to expertise- . 
 
