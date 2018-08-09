@@ -1,0 +1,105 @@
+{
+       "@context":"http://schema.org",
+       "@type":"Menu",
+         "name":"The Menu of NameRestaurant",
+         "description":"Your choice for dinner and a-la carte",
+         "hasMenuSection":[
+         {
+            "@type":"MenuSection",
+              "name":"Dinner",
+              "description":"For your dinner you can choose between 7 dishes",
+              "image":"https://therestaurant.com/dinner.jpg",
+              "offers":{
+                 "@type":"Offer",
+                 "availabilityStarts":"11:30",
+                 "availabilityEnds":"14:00"
+              },
+            "hasMenuSection":[
+                {
+                  "@type":"MenuSection",
+                    "name":"Starters",
+                    "description":"Appetizers to your dinner",
+                    "image":"https://therestaurant.com/starterdishes.jpg",
+                    "hasMenuItem":{
+                      "@type":"MenuItem",
+                      "name":"Garlic bread",
+                      "description":"Mozzarella gratin bread with garlic, avcado and virgin salad",
+                      "offers":{
+                        "@type":"Offer",
+                        "price":"70",
+                        "priceCurrency":"SEK"
+                     },
+                     "suitableForDiet":"http://schema.org/LowFatDiet"
+                  }
+               },
+               {
+                  "@type":"MenuSection",
+                    "name":"Main",
+                    "description":"The main hot dishes for your dinner",
+                    "image":"https://therestaurant.com/maindishes.jpg",
+                    "hasMenuItem":{
+                      "@type":"MenuItem",
+                      "name":"Hot shrimppasta",
+                      "description":"Chilli-flavored shrimp with Casarecce pasta in 
+                      roasted paprika sauce, shredded sugar peas, topped with parmesan cheese",
+                      "offers":{
+                        "@type":"Offer",
+                        "price":"190",
+                        "priceCurrency":"SEK"
+                     },
+                     "suitableForDiet":"http://schema.org/LowFatDiet"
+                  }
+               }
+            ]
+         },
+         {
+            "@type":"MenuSection",
+              "name":"A-la carte",
+              "description":"Many dishes for your choice to a-la carte or pre-order",
+              "image":"https://therestaurant.com/alacatedishes.jpg",
+              "offers":{
+               "@type":"Offer",
+               "availabilityEnds":"15:00",
+               "availabilityStarts":"22:00"
+            },
+            "hasMenuSection":[
+               {
+                  "@type":"MenuSection",
+                    "name":"Starters",
+                    "description":"Choose your appetizers to a-la carte",
+                    "image":"https://therestaurant.com/alacartestarter.jpg",
+                    "hasMenuItem":{
+                      "@type":"MenuItem",
+                      "name":"Shrimp on avocado",
+                      "description":"Fresh shrimps are served with avocado, 
+                      mayonnaise and lemon slice",
+                      "offers":{
+                        "@type":"Offer",
+                        "price":"95",
+                        "priceCurrency":"SEK"
+                     },
+                     "suitableForDiet":"http://schema.org/LowFatDiet"
+                  }
+               },
+               {
+                  "@type":"MenuSection",
+                    "name":"Main",
+                    "description":"The main hot dishes for your choice as a-la carte",
+                    "image":"https://therestaurant.com/alacartemain.jpg",
+                    "hasMenuItem":{
+                      "@type":"MenuItem",
+                      "name":"Reindeer steak",
+                      "description":"With grilled asparagus, grated lingonberry, 
+                      baked potatoes and morel sauce",
+                      "offers":{
+                        "@type":"Offer",
+                        "price":"330",
+                        "priceCurrency":"SEK"
+                     },
+                     "suitableForDiet":"http://schema.org/LowFatDiet"
+                  }
+               }
+            ]
+         }
+      ]
+   }
