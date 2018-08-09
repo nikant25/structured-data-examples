@@ -1,0 +1,15 @@
+{
+     "@context": "https://schema.org/",
+     "@type": "Product", 
+     "name": "Castrol Edge Professional", 
+     "model": "VCC RBS0-2AE 0W-20",
+     "sameAs": "https://en.wikipedia.org/wiki/Castrol",
+     "additionalType":"http://www.productontology.org/id/Castrol"
+     "description": "This is a fully synthetic engine oil recommended by Volvo", 
+     "isConsumableFor": {
+       "@type": "Product",
+         "name": "Volvo cars",
+         "sameAs": "https://en.wikipedia.org/wiki/Volvo_Cars",
+         "additionalType":"http://www.productontology.org/id/Volvo_Cars"
+     }
+   }
