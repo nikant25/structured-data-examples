@@ -1,0 +1,49 @@
+{
+      "@context": "https://schema.org",
+      "@id":"#product",
+      "@type":"BusOrCoach",
+        "brand":"Volvo",
+        "name":"The electrical bus",
+        "model":"B5LH",
+        "sameAs":"https://www.volvobuses.co.uk/en-gb/our-offering/buses/volvo-B5LH-hybrid/specifications.html",
+        "description":"The bus is an integrally-constructed single-decker rigid bus",
+        "additionalType":"http://www.productontology.org/id/Volvo_7900",
+        "image":"https://ex.com/img/volvobusel.jpg",
+        "manufacturer":"Volvo Bussar AB",
+        "mainEntityOfPage":"https://www.volvobuses.com/en-en/home.html",
+        "width":[
+          {
+          "@type":"QuantitativeValue",
+            "value":"2.55",
+            "unitCode":"MTR",
+            "sameAs":"http://www.unece.org/fileadmin/DAM/cefact/recommendations/bkup_htm/add3lm.htm"
+          }
+        ],
+        "height":[
+          {
+          "@type":"QuantitativeValue",
+            "value":"3.28",
+            "unitCode":"MTR",
+            "sameAs":"http://www.unece.org/fileadmin/DAM/cefact/recommendations/bkup_htm/add3lm.htm"
+          }
+        ],
+        "payload":[
+          {
+          "@type":"QuantitativeValue",
+            "value":"18.000",
+            "unitCode":"KGM",
+            "sameAs":"http://www.unece.org/fileadmin/DAM/cefact/recommendations/bkup_htm/add3hk.htm"
+          }
+        ],
+        "vehicleSeatingCapacity":"83",
+        "vehicleEngine":[
+          {
+          "@type":"EngineSpecification",
+            "engineType":"Electric Motor",
+            "fuelType":"Lithium ion battery",
+            "enginePower":"160 KWT",
+            "sameAs":"http://www.unece.org/fileadmin/DAM/cefact/recommendations/bkup_htm/add3hk.htm"
+          }
+        ],
+        "vehicleTransmission":"Volvo 2-speed automatic transmission"
+    }
