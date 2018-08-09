@@ -1,0 +1,110 @@
+{
+      "@context":"https://schema.org",
+      "@type":"Restaurant",
+      "url":"https://somerestaurant.com",
+      "name":"Some Restaurant",
+      "description":"Visit to the Some Restaurant located in Boden city and taste the cuisine of Northern Sweden",
+      "image": [
+         "https://somerestaurant.com/img/1x1/photo.jpg",
+         "https://somerestaurant.com/img/4x3/photo.jpg",
+         "https://somerestaurant.com/img/16x9/photo.jpg"
+      ],
+      "address": {
+         "@type":"PostalAddress",
+         "addressLocality":"Boden",
+         "sameAs":"http://vocab.getty.edu/tgn/1062842",
+         "addressRegion":"Norrbotten", 
+         "additionalType":"http://www.productontology.org/id/Norrbotten",
+         "postalCode":"96131",
+         "streetAddress":"Stora gatan",
+         "addressCountry":"SE"
+      },
+      "openingHoursSpecification": [
+        {
+        "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+        "opens": "10:00",
+        "closes": "21:00"
+       },
+       {
+        "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "12:00",
+          "closes": "23:00"
+       }
+     ],
+      "currenciesAccepted":"SEK", 
+      "sameAs":"https://en.wikipedia.org/wiki/Swedish_krona",
+      "additionalType": "http://www.productontology.org/id/Swedish_krona",
+      "telephone":"+046000111",
+      "email":"zzz@nnn.com",
+      "priceRange":"SEK 30-150",
+      "servesCuisine":"Northern Sweden",
+      "acceptsReservations":"https://somerestaurant/reserve.html",
+      "knowsLanguage": [
+      {
+      "@type":"Language",
+        "name":"English",
+        "alternateName":"en",
+        "sameAs":"http://www.loc.gov/standards/iso639-2/php/code_list.php",
+        "additionalType":"http://www.productontology.org/id/English_language"
+        
+      },
+      {
+      "@type":"Language",
+        "name":"Deutsch",
+        "alternateName":"de",
+        "sameAs":"http://www.loc.gov/standards/iso639-2/php/code_list.php",
+        "additionalType":"http://www.productontology.org/id/German_language"
+        
+      },
+      {
+      "@type":"Language",
+        "name":"Svensk",
+        "alternateName":"se",
+        "sameAs":"http://www.loc.gov/standards/iso639-2/php/code_list.php",
+        "additionalType":"http://www.productontology.org/id/Swedish_language"
+        
+      },
+      {
+      "@type":"Language",
+        "name":"Suomi",
+        "alternateName":"fi",
+        "sameAs":"http://www.loc.gov/standards/iso639-2/php/code_list.php",
+        "additionalType":"http://www.productontology.org/id/Finnish_language"
+        
+      }
+    ],
+      "hasMenu":"https://example.com/menu.html",
+      "founder":{
+        "@type":"Person",
+          "name":"The valid name",
+          "image":{
+            "@type":"ImageObject",
+             "name":"The photo of the person",
+             "contentUrl":"https://somerestaurant.com/images/myphoto.jpg",
+             "width":"1000",
+             "height":"600"
+              },
+          "alumniOf":"An education organization that the person is an alumni of",
+          "award":"The award of the person",
+          "jobTitle":"The job title of the person",
+          "memberOf":"An Organization or Program Membership to which this Person belongs"
+         },
+      "legalName":"The official name of the organization, e.g. the registered company name",
+      "duns":"The Dun & Bradstreet DUNS number for identifying an organization or business person",
+      "leiCode":"An organization identifier that uniquely identifies a legal entity as defined in ISO 17442", 
+      "naics":"The North American Industry Classification System (NAICS) code for a particular organization or business person",
+      "numberOfEmployees":"The number of employees in an organization e.g. business",
+      "taxID":"The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain",
+      "vatID":"The Value-added Tax ID of the restaurant"
+  }
