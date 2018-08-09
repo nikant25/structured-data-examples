@@ -1,0 +1,116 @@
+{
+     "@context": "https://schema.org",
+     "@type": "LocalBusiness",
+     "image": [
+       "https://example.com/photos/1x1/photo.jpg",
+       "https://example.com/photos/4x3/photo.jpg",
+       "https://example.com/photos/16x9/photo.jpg"
+      ],
+     "@id": "https://example.com",
+     "name": "The name", 
+     "description":"The description of your business",
+     "priceRange":"SEK 5-300",
+     "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "The street address",
+       "addressLocality": "The city",
+       "addressRegion": "The region or the state",
+       "postalCode": "111000",
+       "addressCountry": "SE"
+     },
+     "geo": {
+       "@type": "GeoCoordinates",
+       "latitude":62.3895069,
+       "longitude":17.3057808
+     },
+     "url": "https://example.com/",
+     "telephone": "+460001110",
+     "email":"xxx@nnn.se",
+     "openingHoursSpecification": [
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+           "Monday",
+           "Tuesday"
+         ],
+         "opens": "09:00",
+         "closes": "21:00"
+       },
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+           "Wednesday",
+           "Thursday",
+           "Friday"
+         ],
+         "opens": "09:00",
+         "closes": "22:00"
+       },
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Saturday",
+         "opens": "10:00",
+         "closes": "20:00"
+       },
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "11:00",
+         "closes": "20:00"
+       }
+     ], 
+     "department": [
+    {
+      "@type": "LocalBusiness",
+      "image": [
+         "https://exampledep.com/photos/1x1/photo.jpg",
+         "https://exampledep.com/photos/4x3/photo.jpg",
+         "https://exampledep.com/photos/16x9/photo.jpg"
+      ],
+      "name": "The name of department",
+      "description":"The description of your deparment",
+     "priceRange":"SEK 5-300",
+     "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "The street address",
+       "addressLocality": "The city",
+       "addressRegion": "The region or the state",
+       "postalCode": "111000",
+       "addressCountry": "SE"
+     },
+     "geo": {
+       "@type": "GeoCoordinates",
+       "latitude":59.3805069,
+       "longitude":19.3057808
+     },
+      "telephone": "+460011001",
+      "email":"jjj@ppp.se",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:00",
+          "closes": "20:00"
+        }
+       ]
+     }
+   ]
+  }
