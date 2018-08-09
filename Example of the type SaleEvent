@@ -1,0 +1,97 @@
+{
+     "@context": "https://schema.org",
+     "@type": "GroceryStore",
+     "image": [
+       "https://example.com/photos/1x1/photo.jpg",
+       "https://example.com/photos/4x3/photo.jpg",
+       "https://example.com/photos/16x9/photo.jpg"
+      ],
+     "@id": "https://example.com",
+     "name": "The name", 
+     "description":"The description of your business",
+     "priceRange":"SEK 5-300",
+     "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "The street address",
+       "addressLocality": "The city",
+       "addressRegion": "The region or the state",
+       "postalCode": "111000",
+       "addressCountry": "SE"
+     },
+     "geo": {
+       "@type": "GeoCoordinates",
+       "latitude":62.3895069,
+       "longitude":17.3057808
+     },
+     "url": "https://example.com/",
+     "telephone": "+460001110",
+     "email":"xxx@nnn.se",
+     "openingHoursSpecification": [
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+           "Monday",
+           "Tuesday"
+         ],
+         "opens": "09:00",
+         "closes": "21:00"
+       },
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": [
+           "Wednesday",
+           "Thursday",
+           "Friday"
+         ],
+         "opens": "09:00",
+         "closes": "22:00"
+       },
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Saturday",
+         "opens": "10:00",
+         "closes": "20:00"
+       },
+       {
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek": "Sunday",
+         "opens": "11:00",
+         "closes": "20:00"
+       }
+     ],
+     "event": [
+       {
+         "@type": "SaleEvent",
+         "name":"Discount of 50% of citrus fruit", 
+         "description":"Discount of 50% on all citrus fruit from Morocco for all customers",
+         "startDate":"2018-09-21T08:00",
+         "endDate":"2018-09-28T21:00",
+         "location": {
+           "@type": "Place",
+           "name": "The name of Grocery Store",
+           "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "The street address",
+             "addressLocality": "The city",
+             "addressRegion": "The region or the state",
+             "postalCode": "111000",
+             "addressCountry": "SE"
+            }
+          },
+          "image": [
+             "https://example.com/img/1x1/mandarins.jpg",
+             "https://example.com/img/4x3/mandarins.jpg",
+             "https://example.com/img/16x9/mandarins.jpg"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "10",
+            "priceCurrency": "SEK",
+            "availability": "http://schema.org/InStock",
+            "url": "https://www.example.com/eventoffer/offer1.html",
+            "validFrom":"2018-09-21T08:00"
+          },
+          "performer":"The legal name of Grocery Store"
+       }
+     ]
+   }
