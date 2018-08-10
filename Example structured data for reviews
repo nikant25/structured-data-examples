@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "image": "https://example.com/ramlosahalflit.jpg",
+  "name": "The Mineral water 0.5 liters",
+  "brand":"Ramlösa",
+  "review": [{
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating":"5",
+      "worstRating":"1"
+    },
+    "itemReviewed": {
+      "@type": "Thing",
+    "name": "Mineral water perfectly quenches thirst"
+    },
+    "author": {
+      "@type":"Person",
+      "name":"The name of author"
+    },
+    "datePublished": "2018-08-04",
+    "reviewBody": "This mineral water perfectly quenches thirst and it is nice to use after a hearty meal. By the way, this water is not addictive to it",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Consumer society",
+      "sameAs":"https://consumersociety.com/"
+    }
+  },  
+  {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating":"5",
+      "worstRating":"1"
+    },
+    "itemReviewed": {
+      "@type":"Thing",
+    "name":"Mineral water after a dense meal"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "The name of author"
+    },
+    "datePublished": "2018-08-09",
+    "reviewBody": "Mineral salts that are contained in this water help to quickly break down and edible fat and facilitate the assimilation of food",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Society of Dieticians",
+      "sameAs":"https://dieticianssociety.com/"
+    }
+  }],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue":"5",
+    "bestRating":"5",
+    "worstRating":"1",
+    "ratingCount": "2"
+  }
+}
