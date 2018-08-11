@@ -1,7 +1,7 @@
 # structured-data-examples
 Examples of structured data for small businesses
 
-
+I study structured data from 2008.
 We know that structured data helps search engines better understand the content of your website and this can increase the visibility of your business, your products and / or your services on the web. By using a guides of search engines, you can increase the number of target users that can be converted into customers of your business.
 Structured data is a machine-readable markup that is used in the following Google tools:
 * The rich results of Google
