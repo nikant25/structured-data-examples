@@ -18,7 +18,12 @@
     },
     "author": {
       "@type":"Person",
-      "name":"The name of author"
+      "name":"The valid name of author",
+      "sameAs":[
+       "https://plus.google.com/author-profil",
+       "https://twitter.com/author-profil",
+       "https://facebook.com/author-profil"
+      ]
     },
     "datePublished": "2018-08-04",
     "reviewBody": "This mineral water perfectly quenches thirst and it is nice to use after a hearty meal. By the way, this water is not addictive to it",
@@ -42,7 +47,12 @@
     },
     "author": {
       "@type": "Person",
-      "name": "The name of author"
+      "name": "The valid name of author",
+      "sameAs":[
+       "https://plus.google.com/author-profil",
+       "https://twitter.com/author-profil",
+       "https://facebook.com/author-profil"
+      ]
     },
     "datePublished": "2018-08-09",
     "reviewBody": "Mineral salts that are contained in this water help to quickly break down and edible fat and facilitate the assimilation of food",
