@@ -2,15 +2,15 @@
      "@context": "https://schema.org",
      "@type": "AutoPartsStore",
      "image": [
-       "https://yourbusiness.com/photos/1x1/photo.jpg",
-       "https://yourbusiness.com/photos/4x3/photo.jpg",
-       "https://yourbusiness.com/photos/16x9/photo.jpg"
+       "https://example.com/photos/1x1/photo.jpg",
+       "https://example.com/photos/4x3/photo.jpg",
+       "https://example.com/photos/16x9/photo.jpg"
       ],
      "@id": "https://example.com",
      "name": "The name",
-     "legalName":"The legal name",
+     "legalName":"LegalName AB",
      "description":"The description of your business",
-     "priceRange":"SEK 5-300", 
+     "priceRange":"SEK 5-300",
      "address": {
        "@type": "PostalAddress",
        "addressLocality":"Karlskrona",
@@ -29,7 +29,40 @@
      "url": "https://example.com/",
      "telephone": "+460001110",
      "email":"xxx@nnn.se",
-     "openingHoursSpecification": [
+     "contactPoint":[
+      { 
+        "@type": "ContactPoint",
+         "telephone": "+46-877-746-0909",
+         "contactType": "customer service",
+         "contactOption": "TollFree",
+         "areaServed": ["SE","FI","NO"],
+         "availableLanguage" :["Svensk","Suomi","Norsk","English"]
+      },
+      {
+        "@type" : "ContactPoint",
+         "telephone" : "+1-877-453-1304",
+         "contactType" : "technical support",
+         "contactOption" : "TollFree",
+         "areaServed" :["SE","FI","NO"],
+         "availableLanguage" :["Svensk","Suomi","Norsk","English"]
+      }, 
+      {
+        "@type" : "ContactPoint",
+         "telephone" : "+1-877-453-1304",
+         "contactType" : "bill payment",
+         "contactOption" : "TollFree",
+         "areaServed" : ["SE","FI","NO"],
+         "availableLanguage" :["Svensk","Suomi","Norsk","English"]
+      }],
+      "isicV4":"The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place",
+      "duns":"The Dun & Bradstreet DUNS number for identifying an organization or business person",
+      "leiCode":"An organization identifier that uniquely identifies a legal entity as defined in ISO 17442", 
+      "naics":"The North American Industry Classification System (NAICS) code for a particular organization or business person",
+      "numberOfEmployees":"The number of employees in an organization e.g. business",
+      "taxID":"The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain",
+      "vatID":"The Value-added Tax ID of the restaurant",
+      "hasMap":"https://example.com/martolocalbusiness.html",
+      "openingHoursSpecification": [
        {
          "@type": "OpeningHoursSpecification",
          "dayOfWeek": [
@@ -61,26 +94,5 @@
          "opens": "11:00",
          "closes": "16:00"
        }
-     ],
-    "founder":{
-        "@type":"Person",
-          "name":"The valid name",
-          "image":{
-            "@type":"ImageObject",
-             "name":"The photo of the person",
-             "contentUrl":"https://yourbusiness.com/images/myphoto.jpg",
-             "width":"1000",
-             "height":"600"
-              },
-          "alumniOf":"An education organization that the person is an alumni of",
-          "award":"The award of the person",
-          "jobTitle":"The job title of the person",
-          "memberOf":"An Organization or Program Membership to which this Person belongs"
-         },
-      "duns":"The Dun & Bradstreet DUNS number for identifying an organization or business person",
-      "leiCode":"An organization identifier that uniquely identifies a legal entity as defined in ISO 17442", 
-      "naics":"The North American Industry Classification System (NAICS) code for a particular organization or business person",
-      "numberOfEmployees":"The number of employees in an organization e.g. business",
-      "taxID":"The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain",
-      "vatID":"The Value-added Tax ID of your business"
-  }
+     ]
+   }
