@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org",
+  "@type":"Person",
+    "name":"The name of person",
+    "email": "mailto:zzzbb@gmail.com",
+    "image":{
+     "@type":"ImageObject",
+        "url":"https://ex.com/img/foto.jpg",
+        "contentUrl":"https://ex.com/img/foto.jpg",
+        "width":"481",
+        "height":"438",
+        "thumbnail":{
+          "@type":"ImageObject",
+          "url":"https://ex.com/img/foto-m.jpg",
+          "contentUrl":"https://ex.com/img/foto-m.jpg",
+          "width":"300",
+          "height":"273"
+        }
+    },
+    "jobTitle":"Expert of digital marketing",
+    "url":"https://ex.com/aboutme.html", 
+     "sameAs": [
+       "https://plus.google.com/111008877",
+       "https://twitter.com/nik",
+       "https://www.linkedin.com/in/zzz-665577"
+       ],
+     "alumniOf":{
+       "@type":"EducationalOrganization",
+       "name":[
+       "The name of the Educational Organization",
+       "The name of the Educational Organization",
+       "The name of the Educational Organization"
+       ],
+       "url":[
+       "https://educationalorganization1.html",
+       "https://educationalorganization2.html",
+       "https://educationalorganization3.html"
+       ],
+       "image":[
+       "https://imageofdiploma1",
+       "httpsimageofdiploma2",
+       "https://imageofdiploma3"
+       ]     
+    },
+     "brand":{
+      "@type":"Organization",
+       "legalName":"The legal name",
+       "url":"https://ex.com/"
+     },
+     "award":[
+       "The award",
+       "The award",
+       "The award"
+       ],
+       "knowsLanguage":[{
+        "@type":"Language",
+         "name":"Russian",
+         "alternateName":"ru",
+         "additionalType":"http://www.productontology.org/id/Russian_language"
+        },
+        {
+        "@type":"Language",
+         "name":"Swedish",
+         "alternateName":"sv",
+         "additionalType":"http://www.productontology.org/id/Swedish_language"
+        },
+        {
+        "@type":"Language",
+         "name":"English",
+         "alternateName":"en",
+         "additionalType":"http://www.productontology.org/id/English_language"
+        }],
+       "knowsAbout":{
+        "@type":"Thing",
+         "name":[
+          "HTML5",
+          "CSS",
+          "Digital marketing",
+          "Search_engine_optimization (SEO)",
+          "Local search engine optimisation",
+          "Social media optimization (SMO)"
+          ],
+          "additionalType":
+          [
+           "http://www.productontology.org/id/HTML5",
+           "http://www.productontology.org/id/Cascading_Style_Sheets",
+           "http://www.productontology.org/id/Digital_marketing",
+           "http://www.productontology.org/id/Search_engine_optimization",
+           "http://www.productontology.org/id/Local_search_engine_optimisation",
+           "http://www.productontology.org/id/Social_media_optimization"
+          ]
+        },
+        "memberOf":[{
+         "@type":"ProgramMembership",
+          "programName":"The Program Membership",
+          "membershipNumber":"332211",
+          "url":"https://prog.html"
+        },
+        {
+         "@type":"ProgramMembership",
+          "programName":"The Program Membership",
+          "membershipNumber":"112233",
+          "url":"https://prog2.html"
+        },
+        {
+         "@type":"Organization",
+          "legalName":"The legal name",
+          "url":"https://prog3.html"
+        }]
+    }
