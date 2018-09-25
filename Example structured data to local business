@@ -89,7 +89,508 @@
        "honorificSuffix":"An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW",
        "jobTitle":"Owner-manager",
        "worksFor":"The name of busness"
+     },{
+     "@context": "https://schema.org",
+     "@type": "LocalBusiness",
+     "image": [
+       "https://ex.com/img/1x1/im.jpg",
+       "https://ex.com/img/4x3/im.jpg",
+       "https://rx.com/img/16x9/im.jpg"
+      ],
+     "@id": "https://nikant.com",
+     "name": "The name",
+     "legalName":"The legal name",
+     "description":"The description",
+     "url": "https://ex.com/",
+     "priceRange":"SEK 5-300000", 
+     "address": {
+       "@type": "PostalAddress",
+          "streetAddress":"ZZZgatan 4",
+          "addressLocality":"Köping",
+          "addressRegion":"Västmanland County",
+          "sameAs":[
+          "https://en.m.wikipedia.org/wiki/K%C3%B6ping,_Sweden",
+          "https://en.m.wikipedia.org/wiki/ISO_3166-2:SE",
+          "https://en.m.wikipedia.org/wiki/NUTS_statistical_regions_of_Sweden",
+          "http://vocab.getty.edu/tgn/7003780"
+          ],
+          "postalCode":"SE-73133",
+          "addressCountry":{
+          "@type":"Country",
+            "name":"Sweden", 
+            "alternateName":"SE",
+            "sameAs":"https://en.m.wikipedia.org/wiki/Sweden",
+            "additionalProperty":{
+            "@type":"PropertyValue",
+            "name":"ISO 3166-2",
+            "unitCode":"SE",
+            "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:SE"
+            }
+           }
+          },
+     "geo": {
+       "@type": "GeoCoordinates",
+       "latitude":"59.5215618",
+       "longitude":"15.9886672"
+       },
+     "hasOfferCatalog":{
+       "@type":"OfferCatalog",
+       "name":"The services and offers of ZZZZ",
+       "itemListElement":[
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Digital Marketing or Online Marketing",
+            "sameAs":"https://en.m.wikipedia.org/wiki/Digital_marketing"
+            
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Search engine optimization",
+            "sameAs":"https://en.m.wikipedia.org/wiki/Search_engine_optimization"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Web solutions"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Free SEO technical audit of your website"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of content to meet the requirements of search engines"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Defining a unique selling proposition of your business",
+            "sameAs":"https://en.m.wikipedia.org/wiki/Unique_selling_proposition"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization a meta tags of your web pages"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Social media optimization",
+            "sameAs":"https://en.m.wikipedia.org/wiki/Social_media_optimization"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of performance",
+            "serviceOutput":"Performance increase"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Creating from scratch responsive websites including Accelerated Mobile Pages Project",
+            "sameAs":"https://en.m.wikipedia.org/wiki/Accelerated_Mobile_Pages"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization your website for mobile devices"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of localization",
+            "serviceOutput":"Localization of business"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of internationalization",
+            "serviceOutput":"Internationalization of business"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of blog", 
+            "serviceOutput":"The content of a blog that attracts targeted users"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of video"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of podcast"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization or creating relevant structured data",
+            "sameAs":"https://www.webopedia.com/TERM/S/structured_data.html",
+            "serviceOutput":"Structured data for business, products, services"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization for accessibility of users with disabilities with WAI-ARIA",
+            "sameAs":"https://en.m.wikipedia.org/wiki/WAI-ARIA", 
+            "serviceOutput":"Markup according to the standard WAI-ARIA"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Optimization of structure hierarchy of webpages"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Voice search optimization", 
+            "serviceOutput":"Voice search for business, products, services"
+            }
+         },
+         {
+         "@type":"Offer",
+            "itemOffered": {
+            "@type":"Service",
+            "name":"Monitoring and analysis of the traffic to your website with Google Analytics"
+            }
+         }
+       ]
      },
+     "serviceArea": [
+       {
+       "@type":"AdministrativeArea",
+       "name":"Sweden",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Sweden",
+       "additionalProperty":{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"SE",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:SE"
+       }
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"Finland",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Finland",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"FI",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:FI"
+         },
+         {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:1000069",
+         "sameAs":"http://vocab.getty.edu/tgn/1000069"
+         }]
+        },
+       {
+       "@type":"AdministrativeArea",
+       "name":"Denmark",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Denmark",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"DK",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:DK"
+       },
+         {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:1000066",
+         "sameAs":"http://vocab.getty.edu/tgn/1000066"
+         }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"Germany",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Germany",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"DE",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:DE"
+       },
+         {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:7000081",
+         "sameAs":"http://vocab.getty.edu/tgn/7000081"
+         }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"The state of the European Union",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Member_state_of_the_European_Union",
+       "additionalProperty":{
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:7030305",
+         "sameAs":"http://vocab.getty.edu/tgn/7030305"
+       }},
+       {
+       "@type":"AdministrativeArea",
+       "name":"United Kingdom",
+       "alternateName":[
+        "Great Britain",
+        "Britain"
+        ],
+       "sameAs":"https://en.m.wikipedia.org/wiki/United_Kingdom",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"GB",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:GB"
+       },
+         {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:7008591",
+         "sameAs":"http://vocab.getty.edu/tgn/7008591"
+         }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"United States",
+       "sameAs":"https://en.m.wikipedia.org/wiki/United_States",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"US",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:US"
+       },
+       {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:7012149",
+         "sameAs":"http://vocab.getty.edu/tgn/7012149"
+       }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"Canada",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Canada",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"CA",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:CA"
+       },
+       {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:7005685",
+         "sameAs":"http://vocab.getty.edu/tgn/7005685"
+       }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"Brazil",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Brazil",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"BR",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:BR"
+       },
+       {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:1000047",
+         "sameAs":"http://vocab.getty.edu/tgn/1000047"
+       }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"Argentina",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Argentina",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"AR",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:AR"
+       },
+       {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:7006477",
+         "sameAs":"http://vocab.getty.edu/tgn/7006477"
+       }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"India",
+       "sameAs":"https://en.m.wikipedia.org/wiki/India",
+       "additionalProperty":{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"IN",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:IN"
+        }
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"United Arab Emirates",
+       "sameAs":"https://en.m.wikipedia.org/wiki/United_Arab_Emirates",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"AE",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:AE"
+       },
+       {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:1000143",
+         "sameAs":"http://vocab.getty.edu/tgn/1000143"
+       }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"Australia",
+       "sameAs":"https://en.m.wikipedia.org/wiki/Australia",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"AU",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:AU"
+       },
+       {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:7000490",
+         "sameAs":"http://vocab.getty.edu/tgn/7000490"
+       }]
+       },
+       {
+       "@type":"AdministrativeArea",
+       "name":"New Zealand",
+       "sameAs":"https://en.m.wikipedia.org/wiki/New_Zealand",
+       "additionalProperty":[{
+         "@type":"PropertyValue",
+         "name":"ISO 3166-2",
+         "unitCode":"NZ",
+         "propertyID":"https://www.iso.org/obp/ui/#iso:code:3166:NZ"
+       },
+       {
+         "@type":"PropertyValue",
+         "name":"Getty Vocabularies",
+         "propertyID":"tgn:1000226",
+         "sameAs":"http://vocab.getty.edu/tgn/1000226"
+       }]
+       }
+       ],
+     "contactPoint" :{ 
+      "@type":"ContactPoint",
+       "telephone" :"+46-000000",
+       "sameAs":"https://en.wikipedia.org/wiki/Telephone_numbers_in_Sweden",
+       "email":"srt@nast.com",
+       "contactType":"customer service",
+       "availableLanguage":[{
+         "@type":"Language",
+         "name":"Svensk",
+         "alternateName":"se"
+         },
+         {
+         "@type":"Language",
+         "name":"English",
+         "alternateName":"en"
+         },
+         {
+         "@type":"Language",
+         "name":"Russian",
+         "alternateName":"ru"
+         }
+        ],
+       "hoursAvailable":{
+         "@type": "OpeningHoursSpecification",
+         "dayOfWeek":[
+           "Monday",
+           "Tuesday",
+           "Thursday"
+           ],
+           "opens": "10:00",
+           "closes": "15:00" 
+        }
+      },
+     "founder":{
+       "@type":"Person",
+       "name":"The name",
+       "url":"https://ex.com/aboutme.html"
+     },
+     "telephone": "+46-000000",
+     "email":"xxx@nnn.se",
+     "vatID":"1122334455",
+     "naics":"541613",
+     "openingHoursSpecification": [
+    {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Saturday"
+    ],
+    "opens": "08:00",
+    "closes": "16:00"
+  }
+ ]
+}
      "url": "https://example.com/",
      "telephone": "+460001110",
      "email":"xxx@nnn.se",
