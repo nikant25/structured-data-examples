@@ -26,22 +26,27 @@
        ],
      "alumniOf":{
        "@type":"EducationalOrganization",
-       "name":[
-       "The name of the Educational Organization",
-       "The name of the Educational Organization",
-       "The name of the Educational Organization"
-       ],
-       "url":[
-       "https://educationalorganization1.html",
-       "https://educationalorganization2.html",
-       "https://educationalorganization3.html"
-       ],
-       "image":[
-       "https://imageofdiploma1",
-       "httpsimageofdiploma2",
-       "https://imageofdiploma3"
-       ]     
-    },
+       "name":"Google Digital Garage",
+       "sameAs":"https://learndigital.withgoogle.com/digitalgarage",
+       "alumni":
+        {
+         "@type":"Person",
+         "name": "Nikolaj Antonov",
+          "award":"The certificate of Google Digital Garage of the Fundamentals of Digital Marketing",
+          "image":{
+          "@type":"ImageObject",
+            "about":{
+           "@type":"DigitalDocument",
+             "image":[
+               "https://nikantmark.com/img/marketingcert1300.jpg",
+               "https://nikantmark.com/img/marketingcert1000.jpg",
+               "https://nikantmark.com/img/marketingcert800.jpg",
+               "https://nikantmark.com/img/marketingcert500.jpg",
+               "https://nikantmark.com/img/marketingcert300.jpg"
+            ]
+         }} 
+       }
+      },
      "brand":{
       "@type":"Organization",
        "legalName":"The legal name",
