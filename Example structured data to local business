@@ -1,96 +1,5 @@
 {
      "@context": "https://schema.org",
-     "@type": "AutoPartsStore",
-     "image": [
-       "https://example.com/photos/1x1/photo.jpg",
-       "https://example.com/photos/4x3/photo.jpg",
-       "https://example.com/photos/16x9/photo.jpg"
-      ],
-     "@id": "https://example.com",
-     "name": "The name",
-     "legalName":"LegalName AB",
-     "description":"The description of your business",
-     "priceRange":"SEK 5-300", 
-     "address": {
-       "@type": "PostalAddress",
-       "addressLocality":"Karlskrona",
-          "sameAs":"http://vocab.getty.edu/tgn/1063208",
-          "addressRegion":"Blekinge", 
-          "additionalType":"http://www.productontology.org/id/Blekinge_County",
-          "postalCode":"37131",
-          "streetAddress":"Stora gatan",
-          "addressCountry":"SE"
-     },
-     "geo": {
-       "@type": "GeoCoordinates",
-       "latitude":00.3895069,
-       "longitude":15.3057808
-     },
-     "serviceArea": {
-       "@type":"AdministrativeArea",
-       "name":"Karlskrona",
-       "sameAs":"http://vocab.getty.edu/tgn/1063208"
-     },
-     "contactPoint" :{ 
-      "@type":"ContactPoint",
-       "telephone" :"+46-455-000-0909",
-       "sameAs":"https://en.wikipedia.org/wiki/Telephone_numbers_in_Sweden",
-       "email":"srt@nast.com",
-       "contactType":"customer service",
-       "contactOption":"TollFree",
-       "areaServed" :["SE","FI","NO"],
-       "availableLanguage":[{
-         "@type":"Language",
-         "name":"Svensk",
-         "alternateName":"se"
-         },{
-         "@type":"Language",
-         "name":"English",
-         "alternateName":"en"
-         },
-         {
-         "@type":"Language",
-         "name":"Suomi",
-         "alternateName":"fi"
-         },
-         {
-         "@type":"Language",
-         "name":"Norsk",
-         "alternateName":"no"
-         }
-       ],
-       "hoursAvailable":{
-         "@type": "OpeningHoursSpecification",
-         "dayOfWeek":[
-           "Monday",
-           "Tuesday",
-           "Wednesday",
-           "Thursday",
-           "Friday"
-           ],
-           "opens": "09:00",
-           "closes": "16:00" 
-        }
-      },
-     "employee":{
-       "@type":"Person",
-       "name":"The name of owner",
-       "image":{
-         "@type":"ImageObject",
-            "name":"The photo of the person",
-            "contentUrl":"https://example.com/images/myphoto.jpg",
-            "width":"1000",
-            "height":"600"
-              },
-       "alumniOf":"An organization that the person is an alumni of",
-       "award":"An award won by or for this item",
-       "email":"pxr@gnd.com",
-       "honorificPrefix":"An honorific prefix preceding a Person's name such as Dr/Mrs/Mr",
-       "honorificSuffix":"An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW",
-       "jobTitle":"Owner-manager",
-       "worksFor":"The name of busness"
-     },{
-     "@context": "https://schema.org",
      "@type": "LocalBusiness",
      "image": [
        "https://ex.com/img/1x1/im.jpg",
@@ -551,9 +460,9 @@
        "hoursAvailable":{
          "@type": "OpeningHoursSpecification",
          "dayOfWeek":[
-           "Monday",
-           "Tuesday",
-           "Thursday"
+           "https://schema.org/Monday",
+           "https://schema.org/Tuesday",
+           "https://schema.org/Thursday"
            ],
            "opens": "10:00",
            "closes": "15:00" 
@@ -572,11 +481,11 @@
     {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday"
+      "https://schema.org/Monday",
+      "https://schema.org/Tuesday",
+      "https://schema.org/Wednesday",
+      "https://schema.org/Thursday",
+      "https://schema.org/Friday"
     ],
     "opens": "08:00",
     "closes": "17:00"
@@ -584,54 +493,10 @@
   {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": [
-      "Saturday"
+      "https://schema.org/Saturday"
     ],
     "opens": "08:00",
     "closes": "16:00"
   }
  ]
 }
-     "url": "https://example.com/",
-     "telephone": "+460001110",
-     "email":"xxx@nnn.se",
-     "duns":"The Dun and Bradstreet DUNS number for identifying an organization or business person",
-      "leiCode":"An organization identifier that uniquely identifies a legal entity as defined in ISO 17442", 
-      "naics":"The North American Industry Classification System (NAICS) code for a particular organization or business person",
-      "numberOfEmployees":"The number of employees in an organization e.g. business",
-      "taxID":"The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain",
-      "vatID":"The Value-added Tax ID",
-      "hasMap":"https://example.com/mapofbusiness.html",
-      "openingHoursSpecification": [
-       {
-         "@type": "OpeningHoursSpecification",
-         "dayOfWeek": [
-           "Monday",
-           "Tuesday"
-         ],
-         "opens": "09:00",
-         "closes": "21:00"
-       },
-       {
-         "@type": "OpeningHoursSpecification",
-         "dayOfWeek": [
-           "Wednesday",
-           "Thursday",
-           "Friday"
-         ],
-         "opens": "09:00",
-         "closes": "22:00"
-       },
-       {
-         "@type": "OpeningHoursSpecification",
-         "dayOfWeek": "Saturday",
-         "opens": "10:00",
-         "closes": "17:00"
-       },
-       {
-         "@type": "OpeningHoursSpecification",
-         "dayOfWeek": "Sunday",
-         "opens": "11:00",
-         "closes": "16:00"
-       }
-     ]
-   }
